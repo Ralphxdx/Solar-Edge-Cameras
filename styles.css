@@ -1,0 +1,61 @@
+.logo1{
+    height:65px;
+}
+
+/* .carousel-item{
+    background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: cover !important;
+    
+} */
+
+.carousel-item img {
+    max-height: 70vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: cover !important;
+
+    background-position: 50% 50%;
+}
+
+.carousel-caption{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.carousel-content {
+ 
+  position: absolute;
+  bottom: 30%;
+  left: 25%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  text-align: center;
+  align-items: center;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+.image-md{
+  background-color:grey;
+  /* height: 300px; */
+}
+
+.wallet-img{
+  display: flex;
+  justify-content: center;    
+}
+
+.wallei{
+  width: 60px;
+  
+}
